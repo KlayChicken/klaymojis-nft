@@ -7,7 +7,7 @@ import "./token/KIP17/KIP17Pausable.sol";
 import "./token/KIP17MetadataMintable.sol";
 import "./ownership/Ownable.sol";
 
-contract KlayChicken is
+contract KlayMojis is
     KIP17Full("KlayMojis", "MOJI"),
     KIP17Mintable,
     KIP17MetadataMintable,
