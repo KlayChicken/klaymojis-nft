@@ -8,7 +8,7 @@ import "./token/KIP17MetadataMintable.sol";
 import "./ownership/Ownable.sol";
 
 contract KlayChicken is
-    KIP17Full("Klay Chicken", "CHICKEN"),
+    KIP17Full("KlayMojis", "MOJI"),
     KIP17Mintable,
     KIP17MetadataMintable,
     KIP17Burnable,
